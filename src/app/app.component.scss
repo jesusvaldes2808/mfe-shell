@@ -1,0 +1,14 @@
+.layout {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    background-color: #E9EDFA;
+}
+
+aside {
+    width: 350px;
+    height: 100vh;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
