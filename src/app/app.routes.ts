@@ -13,6 +13,10 @@ export const routes: Routes = [
                 path: '',
                 outlet: 'menu',
                 loadComponent: loadComponent('mfe-menu', './Component', 'AppComponent')
+            },
+            {
+                path: '',
+                loadChildren: loadRoute('mfe-dashboard', './routesDashboard')
             }
         ]
     },

@@ -1,4 +1,5 @@
 {
     "mfe-login": "http://localhost:4201/remoteEntry.json",
-    "mfe-menu": "http://localhost:4202/remoteEntry.json"
+    "mfe-menu": "http://localhost:4202/remoteEntry.json",
+    "mfe-dashboard": "http://localhost:4203/remoteEntry.json"
 }
